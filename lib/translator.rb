@@ -17,7 +17,7 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  hash = load_library('./emoticons.yml')
+  hash = load_library(file_path)
   if !hash[:get_emoticon][emoticon]
     return "Sorry, not a known emoticon"
   end
