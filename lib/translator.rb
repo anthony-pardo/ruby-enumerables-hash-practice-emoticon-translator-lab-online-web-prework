@@ -9,7 +9,7 @@ def load_library(file_path)
     i = 0 
     while i < value.length do
       hash[:get_meaning][value[i]] = key if i == 1 
-      hash[:get_emoticon][value[i]] = key if i == 0 
+      hash[:get_emoticon][value[i]] = value[i+1] if i == 0 
       i += 1 
     end
   end
