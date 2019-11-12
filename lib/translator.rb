@@ -13,7 +13,6 @@ def load_library(file_path)
       i += 1 
     end
   end
-  pp emotes
   hash
 end
 
