@@ -6,8 +6,10 @@ def load_library(file_path)
     :get_emoticon=>{}
   }
   emotes.each do |key, value|
-    value.each do |emote|
-      hash
+    i = 0 
+    while i < value.length do
+      hash[:get_meaning][value[i]] = key if i == 1 
+      hash[:get_emoticon][value[i]] = key if i == 0 
     end
   end
   pp emotes
