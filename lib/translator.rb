@@ -6,7 +6,9 @@ def load_library(file_path)
     :get_emoticon=>{}
   }
   emotes.each do |key, value|
-    
+    value.each do |emote|
+      hash
+    end
   end
   pp emotes
   hash[get_meaning] = emotes.keys
