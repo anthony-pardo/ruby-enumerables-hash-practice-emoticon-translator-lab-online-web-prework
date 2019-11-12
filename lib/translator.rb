@@ -13,7 +13,6 @@ def load_library(file_path)
     end
   end
   pp emotes
-  hash[get_meaning] = emotes.keys
   hash
 end
 
