@@ -10,6 +10,7 @@ def load_library(file_path)
     while i < value.length do
       hash[:get_meaning][value[i]] = key if i == 1 
       hash[:get_emoticon][value[i]] = key if i == 0 
+      i += 1 
     end
   end
   pp emotes
