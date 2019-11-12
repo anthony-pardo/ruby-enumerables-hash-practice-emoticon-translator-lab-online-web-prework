@@ -5,6 +5,9 @@ def load_library(file_path)
   hash = { :get_meaning=>{},
     :get_emoticon=>{}
   }
+  emotes.each do |key, value|
+    
+  end
   pp emotes
   hash[get_meaning] = emotes.keys
   hash
